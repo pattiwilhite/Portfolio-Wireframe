@@ -1,0 +1,358 @@
+* {
+	    box-sizing: border-box;
+	}
+	
+
+	body {
+	    font-family: 'Noto Sans HK', sans-serif;
+	    color: #BDC3C7;
+	    text-align: center;
+	    font-family: 'PT Sans', sans-serif;
+	    margin: 0, auto;
+	    padding: 0;
+	}
+	
+
+	/*** Nav ***/
+	
+
+	.topnav {
+	    position: fixed;
+	    left: 0px;
+	    padding-bottom: 20px;
+	    width: 100%;
+	    text-align: left;
+	    background: #A6ACAF;
+	}
+	
+
+	.topnav #myLinks {
+	    display: none;
+	    font-size: 12px;
+	}
+	
+
+	.topnav a {
+	    text-decoration: none;
+	    color: #BDC3C7;
+	    padding-right: 15px;
+	}
+	
+
+	.topnav a.icon {
+	    display: block;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    margin: 5px 0px;
+	}
+	
+
+	.active {
+	    background-color: white;
+	    color: black;
+	  }
+	
+
+	/*** header section ***/
+	
+
+	header {
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 24px;
+	    width: 70%;
+	    display: inline-block;
+	    margin-top: 150px;
+	    height: 500px;
+	}
+	
+
+	header span {
+	    font-family: 'Roboto', sans-serif;
+	    color: black;
+	
+
+	}
+	
+
+	header h1 {
+	    font-size: 32px;
+	}
+	
+
+	header ul li img {
+	    margin: 80px 5px;
+	    width: 30px;
+	    height: 30px;
+	}
+	
+
+	header p {
+	    font-size: 22px;
+	}
+	
+
+	
+
+	/*** section styling ***/ 
+	
+
+	section, header {
+	    min-height: 150px;
+	    padding: 4% 0;
+	
+
+	}
+	
+
+	h2 {
+	    font-family: 'Economica', sans-serif;
+	    font-size: 24px;
+	}
+	
+
+	p {
+	    display: inline-block;
+	    font-size: 16px;
+	    line-height: 30px;
+	    color: black;
+	    width: 75%;
+	}
+	
+
+	/*** about section ***/
+	
+
+	.about img {
+	    border-radius: 25px;
+	    margin: 20px 0;
+	    padding: 0;
+	    
+	}
+	
+
+	.about {
+	    background-color:  #A6ACAF;
+	    height: 750px;
+	}
+	
+
+	.about p {
+	    line-height: 30px;
+	    text-align: left;
+	}
+	
+
+	/*** work section ***/
+	
+
+	.work h3 {
+	    font-size: 18px;
+	}
+	.work a {
+	    text-decoration: none;
+	    display: block;
+	    color: black;
+	    margin: 10px 0;
+	}
+	
+
+	.work img {
+	    width: 70%;
+	}
+	
+
+	/*** contact section ***/
+	
+
+	.contact {
+	    background-color: #A6ACAF;
+	    color: white;
+	}
+	
+
+	ul {
+	      list-style: none;
+	      text-align: center;
+	      margin: 0;
+	      padding: 0;
+	}
+	
+
+	ul li {
+	    display: inline-block;
+	    margin: 0;
+	}
+	
+
+	.contact img {
+	    width: 50%;
+	    filter: 
+	        invert(97%) 
+	        sepia(0%) 
+	        saturate(0%) 
+	        hue-rotate(63deg) 
+	        brightness(104%) 
+	        contrast(104%);
+	    
+	}
+	
+
+	/*** footer section ***/
+	
+
+	footer {
+	    height: 30px;
+	    background-color: #BDC3C7;
+	    color: white;
+	}
+	
+
+	/*** responsive layouts ***/ 
+	
+
+	@media screen and (min-width: 768px){
+	    body {
+	        margin: 0;
+	        width: 100%;
+	    }
+	
+
+	    .topnav a.icon {
+	        display: none;
+	    }
+	
+
+	    .topnav {
+	        overflow: visible;
+	        display: inline-block;
+	    }
+	    
+	    .topnav #myLinks {
+	        display: inline-block;
+	        text-decoration: none;   
+	    }
+	    .topnav a {
+	        padding: 14px 20px;
+	        margin: 0 15px;
+	        text-decoration: none;
+	        font-size: 18px;
+	        display: inline-block;
+	    }
+	
+
+	    .about img {
+	        width: 25%;
+	    }
+	
+
+	    .about p {
+	        line-height: 50px;
+	    }
+	
+
+	    header h1 {
+	        font-size: 65px;
+	    }
+	
+
+	    header p {
+	        font-size: 28px;
+	    }
+	
+
+	    header ul li img {
+	        margin: 100px 25px;
+	        width: 50px;
+	        height: 50px;
+	    }
+	
+
+	    h2 {
+	        font-size: 28px;
+	    }
+	
+
+	    section p {
+	        font-size: 20px;
+	        line-height: 30px;
+	    }
+	
+
+	    .about {
+	        height: 700px;
+	    }
+	
+
+	    .work h3 {
+	        font-size:  20px;
+	    }
+	
+
+	    .work a {
+	        font-size: 18px;
+	    }
+	
+
+	    .work img {
+	        margin: 20px;
+	    }
+	
+
+	    .contact h2 {
+	        margin-bottom: 70px;
+	    }
+	
+
+	    .contact ul li {
+	        margin: 0 40px;
+	    }
+	
+
+	    .contact img {
+	        width: 90%;
+	    }
+	}
+	    
+	
+
+	@media screen and (min-width: 1281px) {
+	    
+	    .topnav a {
+	        padding: 14px 5px;
+	        margin: 0 30px;
+	    }
+	
+
+	    header h1 {
+	        font-size: 48px;
+	    }
+	
+
+	    header p {
+	        font-size: 32px;
+	    }
+	
+
+	    p {
+	        font-size: 24px;
+	    }
+	
+
+	    h2 {
+	        font-size: 28px;
+	    }
+	
+
+	    .about {
+	        height: 700px;
+	    }
+	
+
+	    .contact ul li {
+	        margin: 0 50px;
+	    }
+	
+
+	}
+
