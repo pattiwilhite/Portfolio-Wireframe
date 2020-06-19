@@ -103,9 +103,9 @@
 		}
 	  
 	.header img {
-  	   float: center;
-           width: 500px;
-           height: 500px
+  	   align: center;
+           width: 800px;
+           height: 800px
 
 
 }
