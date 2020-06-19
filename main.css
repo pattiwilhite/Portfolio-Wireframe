@@ -142,6 +142,7 @@
 
 	.about {
 	    background-color:  #A5A5AF;
+            height: auto;
 	 
 	}
 	
@@ -149,6 +150,7 @@
 	.about p {
 	    line-height: 30px;
 	    text-align: left;
+	    height: auto;
 	}
 	
 
