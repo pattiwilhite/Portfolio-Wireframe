@@ -5,7 +5,7 @@
 
 	body {
 	    font-family: 'Noto Sans HK', sans-serif;
-	    color: #BDC3C7;
+	    color: black;
 	    text-align: center;
 	    font-family: 'PT Sans', sans-serif;
 	    margin: 0, auto;
@@ -101,10 +101,11 @@
 	    min-height: 150px;
 	    padding: 4% 0;
 		}
-	  .header img {
-  	  float: center;
-          width: 1000px;
-          height: 1000px
+	  
+	.header img {
+  	   float: center;
+           width: 1000px;
+           height: 1000px
 
 
 }
