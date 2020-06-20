@@ -163,7 +163,7 @@
 	    width: 70%;
 	}
 	
-        a:link, a:visited {
+        .work a:link, a:visited {
         background-color: #9a8ca8;
         color: black;
         padding: 14px 25px;
