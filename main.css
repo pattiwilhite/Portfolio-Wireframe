@@ -58,11 +58,11 @@
 	
 
 	header {
-	   align-items: center;
-	   position: fixed;
-	   width: 100%;
-	   padding: 10px 50px;
-	   justify-content: space-around;
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+            height: auto;
+}
 	}
 	
 
