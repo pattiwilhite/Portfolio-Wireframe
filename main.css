@@ -39,15 +39,6 @@
 	}
 	
 
-	.topnav a.icon {
-	    display: block;
-	    position: absolute;
-	    right: 0;
-	    top: 0;
-	    margin: 5px 0px;
-	}
-	
-
 	.active {
 	    background-color: white;
 	    color: black;
