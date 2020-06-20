@@ -329,8 +329,10 @@
 	@media screen and (min-width: 1281px) {
 	    
 	    .topnav a {
-	        padding: 14px 5px;
-		margin: 0 30px;
+	        flex-wrap: wrap;
+                justify-content: center;
+                position: relative;
+	        
 	    }
 	    nav ul {
                 display: flex;
