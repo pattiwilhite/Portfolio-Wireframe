@@ -133,6 +133,7 @@
 	.about {
 	    background-color:  #8ca8a8;
             height: auto;
+	    max-width: auto;
 	 
 	}
 	
