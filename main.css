@@ -164,7 +164,7 @@
 	}
 	
         a:link, a:visited {
-        background-color: #57bc90;
+        background-color: #9a8ca8;
         color: black;
         padding: 14px 25px;
         text-align: center;
@@ -174,7 +174,7 @@
         }
 
         a:hover, a:active {
-        background-color: #9a8ca8;
+        background-color: #57bc90;
 }
   
 	/*** contact section ***/
