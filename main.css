@@ -205,15 +205,7 @@
 
 	.contact img {
 	    width: 50%;
-	    filter: 
-	        invert(97%) 
-	        sepia(0%) 
-	        saturate(0%) 
-	        hue-rotate(63deg) 
-	        brightness(104%) 
-	        contrast(104%);
-	    
-		
+	   		
 	}
 	
 
