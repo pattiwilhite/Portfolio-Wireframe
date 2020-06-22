@@ -16,27 +16,43 @@
 	/*** Nav ***/
 	
 
-	.topnav {
-	    position: fixed;
-	    left: 0px;
-	    padding-bottom: 20px;
-	    width: 100%;
-	    text-align: left;
-	    background: #57BC90;
-	}
-	
+/* Style the navigation menu */
+            .topnav {
+            width: 100%;
+            background-color: #57BC90;
+            overflow: auto;
+}
 
-	.topnav #myLinks {
-	    display: none;
-	    font-size: 12px;
-	}
-	
+/* Navigation links */
+            .topnav a {
+            float: left;
+            padding: 12px;
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+            text-align: center; /* If you want the text to be centered */
+}
 
-	.topnav a {
-	    text-decoration: none;
-	    color: black;
-	    padding-right: 15px;
-	}
+
+            .navbar a:hover {
+            background-color: #9a8ca8;
+}
+
+
+            .topnav #myLinks  {
+            background-color: #57BC90;
+}
+
+
+@media screen and (max-width: 500px) {
+            .topvav a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left; /* If you want the text to be left-aligned on small screens */
+  } 
+}
 	
 
 	.active {
@@ -228,30 +244,44 @@
 	        width: 100%;
 	    }
 	
+/* Style the navigation menu */
+            .topnav {
+            width: 100%;
+            background-color: #57BC90;
+            overflow: auto;
+}
 
-	    .topnav a.icon {
-	        display: none;
-	    }
-	
+/* Navigation links */
+            .topnav a {
+            float: left;
+            padding: 12px;
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+            text-align: center; /* If you want the text to be centered */
+}
 
-	    .topnav {
-	        overflow: visible;
-	        display: inline-block;
-	    }
-	    
-	    .topnav #myLinks {
-	        display: inline-block;
-	        text-decoration: none;   
-	    }
-	    .topnav a {
-		float: left;
-	        padding: 14px 20px;
-	        margin: 0 15px;
-	        text-decoration: none;
-		text-align: center;
-	        font-size: 18px;
-	        display: inline-block;
-	    }
+/* Add a background color on mouse-over */
+            .navbar a:hover {
+            background-color: #9a8ca8;
+}
+
+/* Style the current/active link */
+            .topnav #myLinks  {
+            background-color: #57BC90;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+            .topvav a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left; /* If you want the text to be left-aligned on small screens */
+  } 
+}
+
 	
 
 	    .about img {
