@@ -24,7 +24,7 @@
 }
 
 body {
-  background: url("http://www.philippefercha.com/cd/toggle-menu-bg.jpg") no-repeat;
+  background-color: White;
   background-size:2000px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -95,7 +95,7 @@ a {
 }
 
 .menu {
-  background: #f1c40f;
+  background: #57BC90;
   color: transparent;
   height: 64px;
   position: absolute;
