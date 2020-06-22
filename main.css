@@ -272,14 +272,7 @@
             background-color: #57BC90;
 }
 
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-            .topvav a {
-            float: none;
-            display: block;
-            width: 100%;
-            text-align: left; /* If you want the text to be left-aligned on small screens */
-  } 
+
 }
 
 	
@@ -362,11 +355,12 @@
 
 	@media screen and (min-width: 1281px) {
 	    
-	    .topnav a {
-	        flex-wrap: wrap;
-                justify-content: center;
-                position: relative;
-	        
+	    .topvav a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: center; /* If you want the text to be left-aligned on small screens */
+  } 
 	    }
 	    nav ul {
                 display: flex;
