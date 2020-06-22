@@ -53,7 +53,7 @@ a {
   width: 64px;
 }
 .menu-opener:hover, .menu-opener.active {
-  background: #f1c40f;
+  background: #9a8ca8;
 }
 
 .menu-opener-inner {
@@ -64,7 +64,7 @@ a {
   width: 2.5rem;
 }
 .menu-opener-inner::before, .menu-opener-inner::after {
-  background: white;
+  background: black;
   content: '';
   display: block;
   height: .5rem;
