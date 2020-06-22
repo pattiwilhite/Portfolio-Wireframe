@@ -167,7 +167,7 @@
 	
         .work a:link, a:visited {
         background-color: #9a8ca8;
-        color: white;
+        color: black;
         padding: 14px 25px;
         text-align: center;
         text-decoration: none;
@@ -212,7 +212,6 @@
 	        hue-rotate(63deg) 
 	        brightness(104%) 
 	        contrast(104%);
-	    color: black;
 	    
 		
 	}
