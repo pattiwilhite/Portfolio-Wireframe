@@ -252,9 +252,11 @@
 	        text-decoration: none;   
 	    }
 	    .topnav a {
+		float: left;
 	        padding: 14px 20px;
 	        margin: 0 15px;
 	        text-decoration: none;
+		text-align: center;
 	        font-size: 18px;
 	        display: inline-block;
 	    }
