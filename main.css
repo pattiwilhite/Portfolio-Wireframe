@@ -211,7 +211,9 @@
 	        hue-rotate(63deg) 
 	        brightness(104%) 
 	        contrast(104%);
+	    color: black;
 	    
+		
 	}
 	
 
@@ -328,6 +330,7 @@
 
 	    .contact img {
 	        width: 90%;
+		
 	    }
 	}
 	    
