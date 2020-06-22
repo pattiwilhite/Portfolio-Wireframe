@@ -15,7 +15,7 @@
 
 	/*** Nav ***/
 	.topnav {
-            width: 50%;
+            width: 100%;
             background-color: #57BC90;
             overflow: auto;
         }
@@ -226,7 +226,7 @@
 	    }
 	
             .topnav a {
-            float: left;
+            float: flex;
             display: block;
             width: 100%;
             text-align: center;
