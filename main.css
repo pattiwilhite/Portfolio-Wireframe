@@ -17,7 +17,7 @@
 	
 
 	.topnav {
-	    position: center;
+	    position: fixed;
 	    left: 0px;
 	    padding-bottom: 20px;
 	    width: 100%;
@@ -29,7 +29,6 @@
 	.topnav #myLinks {
 	    display: none;
 	    font-size: 12px;
-	    color: black;
 	}
 	
 
@@ -183,7 +182,8 @@
 	
 
 	.contact {
-	    background-color: #57BC90
+	    background-color: #57BC90;
+            color: black;
 	  
 }
 		    
