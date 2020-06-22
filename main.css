@@ -31,7 +31,7 @@
             text-decoration: none;
             font-size: 18px;
             width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-            text-align: center; /* If you want the text to be centered */
+            text-align: left; /* If you want the text to be centered */
 }
 
 
@@ -56,7 +56,7 @@
 	
 
 	.active {
-	    background-color: black;
+	    background-color: #57BC90;
 	    color: black;
 	  }
 	
