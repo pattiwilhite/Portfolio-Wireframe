@@ -20,7 +20,7 @@
 *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 body {
@@ -113,7 +113,7 @@ a {
   width: calc(100% - 2rem);
 }
 .menu.active .menu-link {
-  color: white;
+  color: black;
 }
 
 .menu-inner {
