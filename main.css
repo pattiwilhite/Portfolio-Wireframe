@@ -45,20 +45,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
-            .topvav a {
-            float: none;
-            display: block;
-            width: 100%;
-            text-align: left; /* If you want the text to be left-aligned on small screens */
-  } 
-}
-	
-
-	.active {
-	    background-color: #57BC90;
-	    color: black;
-	  }
+    
 	
 
 	/*** header section ***/
