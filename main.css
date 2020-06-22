@@ -14,33 +14,67 @@
 	
 
 	/*** Nav ***/
-	.topnav {
-            width: 100%;
-            background-color: #57BC90;
-            overflow: auto;
-        }
+	topnav {
+	   width: 100%
+}
 
-        .topnav a {
-            float: left;
-            padding: 12px;
-            color: black;
-            text-decoration: none;
-            font-size: 18px;
-            width: 20%; 
-            text-align: center;
-        }
+}
+       nav ul li {
+	   display: inline-block;
+	   list-style: none;
+	   margin-right: 20px;
+	   font-weight: 400;
+	   text-transform: uppercase;
+}
+       topnav a {
+	  color: black;
+	  text-decoration: none;
+	  transition: all .5s ease-in-out;
+	  position: relative;
+}
+      topnav a:hover {
+	  color: white
+}
+     topnav a:after {
+	  border-bottom: 3px solid rgb(170, 196, 23);
+	  content: '';
+	  left: 0;
+	  margin-top: -.125em;
+	  position: absolute;
+	  right:0;
+	  top: 0%;
+	  transition: all 0.5s ease-in-out;
+	  opacity: 0;
+}
+t.   opnav a:hover:after {
+	 border-bottom: 3px solid rgb(170, 196, 23);
+	 content: '';
+	 opacity: 1;
+	 left: 0;
+	 margin-top: -.125em;
+	 position: absolute;
+	 right: 0;
+	 top: 50%;
+}
+    topnav #MyLinks {		
+	  color: Black;
+}
 
-        .topnav a:hover {
-            background-color: #9a8ca8;
-        }
+    topnav .router-link-active > span {
+	 font-size: 1em!important;
+	 color: white;
+}
 
-        .topnav #myLinks  {
-            background-color: #57BC90;
-        }
-
-
-    
-	
+    topnav .router-link-active::after {
+	 border-bottom: 3px solid rgb(170, 196, 23);
+	 content: '';
+	 left: 0;
+	 margin-top: -.125em;
+	 position: absolute;
+	 opacity: 1;
+	 right: 0;
+	 top: 50%;
+}
 
 	/*** header section ***/
 	
