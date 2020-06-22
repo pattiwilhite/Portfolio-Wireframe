@@ -313,7 +313,7 @@
 	    .topvav a {
             float: flex;
             display: block;
-            width: 50%;
+            width: 100%;
             text-align: center; 
   } 
 	    }
