@@ -34,7 +34,7 @@
 
 	.topnav a {
 	    text-decoration: none;
-	    color: white;
+	    color: black;
 	    padding-right: 15px;
 	}
 	
@@ -221,7 +221,7 @@
 	footer {
 	    height: 30px;
 	    background-color: #57BD90;
-	    color: white;
+	    color: black;
 	}
 	
 
