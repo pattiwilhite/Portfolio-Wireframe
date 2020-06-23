@@ -6,7 +6,7 @@
 	body {
 	    font-family: 'Noto Sans HK', sans-serif;
 	    color: black;
-	    text-align: left;
+	    text-align: center;
 	    font-family: 'PT Sans', sans-serif;
 	    margin: 0, auto;
 	    padding: 0;
@@ -20,7 +20,7 @@
 	    background-color:#9a8ca8;
 	    margin-bottom: 25px;
             postition: fixed;
-            text-align: center;
+            text-align: left;
      }
         .topnav #mylinks {
 	   margin: 0;
