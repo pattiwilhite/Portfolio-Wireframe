@@ -17,7 +17,7 @@
 
 	.topnav {
 	    height: 75px;
-	    background-color:#9a8ca8;
+	    background-color:#57BD90;
 	    margin-bottom: 25px;
             postition: fixed;
             text-align: left;
@@ -48,7 +48,7 @@
 	header {
             width: 80%;
             display: inline-block;
-            margin-top: 150px;
+            margin-top: 125px;
             height: auto;
 }
 	}
