@@ -15,27 +15,29 @@
 
 	/*** nav section ***/
 
-	nav {
+	.topnav {
 	    height: 75px;
-	    background-color: #57BC90;
+	    background-color:      #57BC90;
 	    margin-bottom: 25px;
-	}
-	nav ul {
-	    margin: 0;
-	    padding : 0;
-	}
-        nav ul li {
-	    list-style: none;
-	    display: inline-block;
-	}
-	nav ul li a {
-	    color: black;
-	    text-decoration: none;
-	    text-transform: uppercase;
-	    font-family: 'Roboto', sans-serif;;
-	    display: block;
-	    padding : 25px 35px; 
-	}
+            postition: fixed;
+            text-align: center;
+     }
+        .topnav #mylinks {
+	   margin: 0;
+	   padding : 0;
+	   list-style: none;
+     }
+	.topnav a{
+	   color: black;
+	   text-decoration: none;
+	   text-transform: uppercase;
+	   font-family: 'Roboto', sans-serif;;
+	   display: block;
+	   padding : 25px 35px;
+           display: inline-block;
+     }
+
+
 
 
 
